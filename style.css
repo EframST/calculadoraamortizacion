@@ -1,0 +1,63 @@
+  /* Estilo para la tabla */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Estilo para las celdas de encabezado */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border: 2px solid #ddd;
+  }
+  
+  /* Estilo para las celdas de datos */
+  td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para las filas impares */
+  tr:nth-child(odd) {
+    background-color: #a9df9d;
+  }
+
+  /* Estilo para las filas pares */
+  tr:nth-child(even) {
+    background-color: #d1f1cf;
+  }
+
+  body {
+    background-color: #F5F5F5;
+    font-family: 'Georgia';
+  }
+
+  input[type="submit"]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  input[type="text"]{
+    background-color: #e8f5e9; 
+    border: 1px solid #81c784; 
+    border-radius: 4px; 
+    padding: 8px;
+  }
+
+  h3 {
+    font-size: 30pt ;
+  }
